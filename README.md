@@ -1,12 +1,13 @@
 using System;
 
 class MainClass {
-    static void Main(string [] args) {
-       int v, m ,n;
-       
-        v = Convert.ToInt32 (Console.Readline ());
+    static void Main() {
+         
+         int v, m ;
+       v = Convert.ToInt32 (Console.Readline ());
         m = Convert.ToInt32 (Console.Readline ());
-        Console.WriteLine(m);
+        Console.WriteLine((v+m)*(v+m));
         Console.Readline ();
+       
     }
 }
